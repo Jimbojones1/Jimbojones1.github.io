@@ -1,1 +1,19 @@
+@font-face {
+    font-family: 'Algerian';
+    src:  url('style/Algerian.ttf');
+    font-style: normal;
+}
 
+
+input {
+  width: 60%;
+  font-size: 1rem;
+  color: green;
+  font-style: Algerian;
+}
+
+h3 {
+  color:  orange;
+  width:  100%;
+  background-color: green;
+}
