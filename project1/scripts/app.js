@@ -2,11 +2,12 @@ $(document).ready(function() {
 
   console.log("All resources are loaded");
 
+
   $('.loading').hide();
   $('.success').hide();
   $('.error').hide();
 
-  $('# form_send').on('click', function () {
+  $('#form_send').on('click', function () {
     var formdata = app.createFormObject();
     console.log(formdata);
     console.log('Clicked form submit...');
@@ -14,8 +15,34 @@ $(document).ready(function() {
 
   });
 
+  $('.pictures').slick({
+  slidesToShow: 1,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 2000,
 });
+  $(window).load(function(){
+  $('img.bgfade').hide();
+  var dg_H = $(window).height();
+  var dg_W = $(window).width();
+  $('#wrap').css({'height':dg_H,'width':dg_W});
+  function anim() {
+      $("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
+      $("#wrap img").first().fadeIn(1500);
+      setTimeout(anim, 3000);
+  }
+  anim();})
+  $(window).resize(function(){window.location.href=window.location.href})
 
+  // do my image switching logic here.
+  initialize();
+});//end of document.ready
+
+
+
+
+//end of document.ready
+//contact form
 var app = app || {};
 app.createFormObject = function() {
 
@@ -33,7 +60,7 @@ app.createFormObject = function() {
 
   return retJson;
 }
-
+//send contact form
 app.sendEmail = function (emailData) {
 
   $('.loading').slideDown();  //.show
@@ -57,8 +84,26 @@ app.sendEmail = function (emailData) {
       $('.error').show();
     }
 
+
   };
   $.ajax(ajaxData);
+  //google map function
+
+};
+//function google maps
+
+//initialize new google map object
 
 
-}
+function initialize() {
+  //the map object constructor takes two arguments
+  var mapCanvas = document.getElementById('map-canvas');
+  var mapOptions = {
+      center: new google.maps.LatLng(44.5403, -78.5463),
+      zoom: 8,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  }
+  //an event listener to wait for the map div to load
+  google.maps.event.addDomListener(window, 'load', initialize);
