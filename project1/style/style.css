@@ -7,18 +7,44 @@
   src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf");
   font-style: normal; }
 body {
+  max-width: 1200px;
+  margin: 0; }
+
+#wrapper {
   background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
   /*background-size: cover;*/
   background-color: rgba(110, 214, 49, 0.5);
   background-size: cover;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  max-height: 960px; }
 
 section {
   width: 65%;
   float: right;
   height: 900px;
   margin-bottom: 10px; }
+
+.menulayout {
+  height: 650px;
+  width: 75%;
+  vertical-align: center;
+  background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
+  border-radius: 60px;
+  margin: 0 auto;
+  margin-top: 5%;
+  color: #f4f4f0;
+  font-family: KGSecondChancesSketch;
+  border: 3px solid #906b33; }
+
+.fooditems {
+  padding: 20px; }
+
+h2 {
+  font-family: Algerian;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
 
 aside {
   float: left;
@@ -66,51 +92,5 @@ a:hover {
   height: 200px;
   background-color: #CCC;
   border: 3px solid #bcdf8a; }
-
-.contact {
-  width: 90%;
-  height: 70%;
-  background-color: rgba(230, 157, 15, 0.31);
-  border-radius: 30px;
-  vertical-align: middle; }
-
-h1 {
-  color: #f4f4f0;
-  width: 100%;
-  font-family: Algerian;
-  text-align: center;
-  text-decoration: underline overline;
-  padding-top: 2%; }
-
-li input {
-  width: 80%;
-  padding: 2%;
-  margin: 2%;
-  font-family: KGSecondChancesSketch;
-  color: #bcdf8a;
-  border-radius: 10px;
-  border: 1.5px solid #bcdf8a; }
-
-li {
-  list-style-type: none; }
-
-input {
-  width: 80%;
-  font-size: 1rem;
-  color: black;
-  font-family: Algerian;
-  margin-left: 7%;
-  border-radius: 10px;
-  border: 1.5px solid #bcdf8a; }
-
-@media (min-width: 660px) {
-  section {
-    background-color: red; }
-
-  nav li {
-    font-size: 1em; } }
-@media (min-width: 960px) {
-  section {
-    background-color: purple; } }
 
 /*# sourceMappingURL=style.css.map */

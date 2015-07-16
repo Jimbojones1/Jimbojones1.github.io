@@ -9,15 +9,17 @@
     src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf');
     font-style: normal;
 }
-
 body {
+  max-width:  1200px;
+  margin: 0;
+}
+#wrapper {
   background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
   /*background-size: cover;*/
-  background-color: rgba(110, 214, 49, 0.5);
-  background-size: cover;
   margin:  0 auto;
   width: 100%;
-  max-height: 900px;
+  height: 960px;
+  overflow: hidden;
 }
 
 section {
@@ -26,6 +28,7 @@ section {
   height:  900px;
   margin-bottom: 10px;
   }
+
 .menulayout {
   height:  650px;
   width:  75%;
@@ -78,6 +81,7 @@ aside {
 }
 nav {
   margin-top: 70px;
+  width: 100%;
 }
 nav li{
   display: block;
@@ -93,6 +97,12 @@ nav li a{
   color: rgb(244, 244, 240);
 }
 
+.skies {
+  font-size: 1em;
+  font-family: KGSecondChancesSketch;
+  color: rgb(244, 244, 240);
+}
+
 
 
 a:hover {
@@ -100,9 +110,30 @@ a:hover {
   text-decoration: underline overline;
 }
 
+li span {
+  color: rgb(188, 223, 138);
+}
+
 #map-canvas {
    width: 90%;
    height: 200px;
    background-color: #CCC;
    border: 3px solid #bcdf8a;
+}
+
+@media (max-width:  500px){
+  #wrapper {
+    width:  99%;
+    height: auto;
+  }
+  aside {
+    display: none;
+  }
+  section {
+    width: 100%;
+  }
+  .menulayout{
+    margin-top: 10%;
+    width:  90%;
+  }
 }
