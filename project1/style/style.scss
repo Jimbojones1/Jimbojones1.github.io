@@ -73,7 +73,11 @@ nav li a{
   color: rgb(244, 244, 240);
 }
 
-
+.skies {
+  font-size: 1em;
+  font-family: KGSecondChancesSketch;
+  color: rgb(244, 244, 240);
+}
 
 a:hover {
   color: rgb(188, 223, 138);
@@ -126,18 +130,27 @@ input {
   border-radius: 10px;
   border: 1.5px solid rgb(188, 223, 138);
 }
-
-@media (min-width: 660px) {
-  section {
-    background-color: red;
-    }
-    nav li {
-      font-size: 1em;
-    }
+@media (max-width:  500px){
+  #wrapper {
+    width:  99%;
+    background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
+    height: auto;
   }
-@media (min-width:  960px) {
-    section {
-      background-color: purple;
-
-    }
+  aside {
+    display: none;
+  }
+  section {
+    width: 100%;
+  }
+  .contact {
+    width: 80%;
+    margin-left: 9%;
+  }
+  li input {
+    margin-top: 10%;
+    margin-bottom: 8%;
+  }
+  #form_send {
+    margin-left: 11%;
+  }
 }
