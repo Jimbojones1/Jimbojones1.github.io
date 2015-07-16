@@ -41,11 +41,12 @@ $(document).ready(function() {
 //Get weather api
 var getWeather = {
   type: 'get',
-  url: 'api.openweathermap.org/data/2.5/weather?q=chicago',
+  url: 'http://api.openweathermap.org/data/2.5/weather?q=chicago',
   data: 'json',
   success: function(data){
     console.log("I did it bitches!");
-    $('.weather').append('<li></li>')
+    console.dir(data);
+    $('.weather').append('<li class="skies">' + 'The current temparture is '+ Math.round(data.main.temp * 9/5 - 459.67)+ ' degrees with ' + data.weather[0].description + '.' +'</li>');
 
   },error:  function () {
     console.log("I didn't work you big dumb idiot");
