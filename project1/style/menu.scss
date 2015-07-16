@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Algerian';
+    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/Algerian.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KGSecondChancesSketch';
+    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf');
+    font-style: normal;
+}
+
+body {
+  background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
+  /*background-size: cover;*/
+  background-color: rgba(110, 214, 49, 0.5);
+  background-size: cover;
+  margin:  0 auto;
+  width: 100%;
+  max-height: 900px;
+}
+
+section {
+  width:  65%;
+  float:  right;
+  height:  900px;
+  margin-bottom: 10px;
+  }
+.menulayout {
+  height:  650px;
+  width:  75%;
+  vertical-align: center;
+  background-image: url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg');
+  border-radius: 60px;
+  margin: 0 auto;
+  margin-top: 5%;
+  color: rgb(244, 244, 240);
+  font-family: KGSecondChancesSketch;
+  border:  3px solid rgb(144, 107, 51);
+}
+
+.fooditems {
+  padding: 20px;
+}
+
+h2 {
+  font-family: Algerian;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+aside {
+  float: left;
+  background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
+  width: 27%;
+  height:  900px;
+  margin-bottom: 10px;
+  font-family: KGSecondChancesSketch;
+}
+
+.container {
+  width: 95%;
+  height: 200px;
+  z-index: 1;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container img {
+  width:  100%;
+  height: auto;
+  vertical-align: middle;
+
+}
+nav {
+  margin-top: 70px;
+}
+nav li{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: Algerian;
+  font-size: 2em;
+  }
+
+nav li a{
+  text-decoration: none;
+  vertical-align: middle;
+  color: rgb(244, 244, 240);
+}
+
+
+
+a:hover {
+  color: rgb(188, 223, 138);
+  text-decoration: underline overline;
+}
+
+#map-canvas {
+   width: 90%;
+   height: 200px;
+   background-color: #CCC;
+   border: 3px solid #bcdf8a;
+}

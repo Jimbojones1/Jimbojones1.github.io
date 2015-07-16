@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   $('.pictures').slick({
   slidesToShow: 1,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
 });
@@ -38,9 +38,23 @@ $(document).ready(function() {
   initialize();
 });//end of document.ready
 
+//Get weather api
+var getWeather = {
+  type: 'get',
+  url: 'api.openweathermap.org/data/2.5/weather?q=chicago',
+  data: 'json',
+  success: function(data){
+    console.log("I did it bitches!");
+    $('.weather').append('<li></li>')
+
+  },error:  function () {
+    console.log("I didn't work you big dumb idiot");
+  }
 
 
+}//end of get weather object
 
+$.ajax(getWeather);
 //end of document.ready
 //contact form
 var app = app || {};

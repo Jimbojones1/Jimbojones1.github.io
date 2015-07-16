@@ -1,40 +1,32 @@
 @font-face {
-    font-family: 'Algerian';
-    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/Algerian.ttf');
-    font-style: normal;
-}
-
+  font-family: 'Algerian';
+  src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/Algerian.ttf");
+  font-style: normal; }
 @font-face {
-    font-family: 'KGSecondChancesSketch';
-    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf');
-    font-style: normal;
-}
-
+  font-family: 'KGSecondChancesSketch';
+  src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf");
+  font-style: normal; }
 body {
   background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
   /*background-size: cover;*/
   background-color: rgba(110, 214, 49, 0.5);
   background-size: cover;
-  margin:  0 auto;
-  width: 100%;
-}
+  margin: 0 auto;
+  width: 100%; }
 
 section {
-  width:  65%;
-  float:  right;
-  height:  900px;
-  margin-bottom: 10px;
-  }
-
+  width: 65%;
+  float: right;
+  height: 900px;
+  margin-bottom: 10px; }
 
 aside {
   float: left;
   background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
   width: 27%;
-  height:  900px;
+  height: 900px;
   margin-bottom: 10px;
-  font-family: KGSecondChancesSketch;
-}
+  font-family: KGSecondChancesSketch; }
 
 .container {
   width: 95%;
@@ -43,76 +35,65 @@ aside {
   vertical-align: middle;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .container img {
-  width:  100%;
+  width: 100%;
   height: auto;
-  vertical-align: middle;
+  vertical-align: middle; }
 
-}
 nav {
-  margin-top: 70px;
-}
-nav li{
+  margin-top: 70px; }
+
+nav li {
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
   font-style: Algerian;
-  font-size: 2em;
-  }
+  font-size: 2em; }
 
-nav li a{
+nav li a {
   text-decoration: none;
   vertical-align: middle;
-  color: rgb(244, 244, 240);
-}
-
-
+  color: #f4f4f0; }
 
 a:hover {
-  color: rgb(188, 223, 138);
-  text-decoration: underline overline;
-}
+  color: #bcdf8a;
+  text-decoration: underline overline; }
 
 #map-canvas {
-   width: 90%;
-   height: 200px;
-   background-color: #CCC;
-   border: 3px solid #bcdf8a;
-}
+  width: 90%;
+  height: 200px;
+  background-color: #CCC;
+  border: 3px solid #bcdf8a; }
 
 .contact {
-  width:  90%;
+  width: 90%;
   height: 70%;
   background-color: rgba(230, 157, 15, 0.31);
   border-radius: 30px;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 h1 {
-  color:  rgb(244, 244, 240);
-  width:  100%;
+  color: #f4f4f0;
+  width: 100%;
   font-family: Algerian;
   text-align: center;
   text-decoration: underline overline;
-  padding-top: 2%;
-}
+  padding-top: 2%; }
 
 li input {
-  width:  80%;
+  width: 80%;
   padding: 2%;
   margin: 2%;
   font-family: KGSecondChancesSketch;
-  color: rgb(188, 223, 138);
+  color: #bcdf8a;
   border-radius: 10px;
-  border: 1.5px solid rgb(188, 223, 138);
-}
+  border: 1.5px solid #bcdf8a; }
 
 li {
-  list-style-type: none;
-}
+  list-style-type: none; }
+
 input {
   width: 80%;
   font-size: 1rem;
@@ -120,5 +101,16 @@ input {
   font-family: Algerian;
   margin-left: 7%;
   border-radius: 10px;
-  border: 1.5px solid rgb(188, 223, 138);
-}
+  border: 1.5px solid #bcdf8a; }
+
+@media (min-width: 660px) {
+  section {
+    background-color: red; }
+
+  nav li {
+    font-size: 1em; } }
+@media (min-width: 960px) {
+  section {
+    background-color: purple; } }
+
+/*# sourceMappingURL=style.css.map */

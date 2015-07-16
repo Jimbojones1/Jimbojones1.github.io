@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Algerian';
+    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/Algerian.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KGSecondChancesSketch';
+    src:  url('/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf');
+    font-style: normal;
+}
+
+body {
+  background-image: url("http://www.zingerbugimages.com/backgrounds/lime_green_painted_brick_wall.jpg");
+  /*background-size: cover;*/
+  background-color: rgba(110, 214, 49, 0.5);
+  background-size: cover;
+  margin:  0 auto;
+  width: 100%;
+}
+
+section {
+  width:  65%;
+  float:  right;
+  height:  900px;
+  margin-bottom: 10px;
+  }
+
+
+aside {
+  float: left;
+  background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
+  width: 27%;
+  height:  900px;
+  margin-bottom: 10px;
+  font-family: KGSecondChancesSketch;
+}
+
+.container {
+  width: 95%;
+  height: 200px;
+  z-index: 1;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container img {
+  width:  100%;
+  height: auto;
+  vertical-align: middle;
+
+}
+nav {
+  margin-top: 70px;
+}
+nav li{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: Algerian;
+  font-size: 2em;
+  }
+
+nav li a{
+  text-decoration: none;
+  vertical-align: middle;
+  color: rgb(244, 244, 240);
+}
+
+
+
+a:hover {
+  color: rgb(188, 223, 138);
+  text-decoration: underline overline;
+}
+
+#map-canvas {
+   width: 90%;
+   height: 200px;
+   background-color: #CCC;
+   border: 3px solid #bcdf8a;
+}
+
+.contact {
+  width:  90%;
+  height: 70%;
+  background-color: rgba(230, 157, 15, 0.31);
+  border-radius: 30px;
+  vertical-align: middle;
+}
+
+h1 {
+  color:  rgb(244, 244, 240);
+  width:  100%;
+  font-family: Algerian;
+  text-align: center;
+  text-decoration: underline overline;
+  padding-top: 2%;
+}
+
+li input {
+  width:  80%;
+  padding: 2%;
+  margin: 2%;
+  font-family: KGSecondChancesSketch;
+  color: rgb(188, 223, 138);
+  border-radius: 10px;
+  border: 1.5px solid rgb(188, 223, 138);
+}
+
+li {
+  list-style-type: none;
+}
+input {
+  width: 80%;
+  font-size: 1rem;
+  color: black;
+  font-family: Algerian;
+  margin-left: 7%;
+  border-radius: 10px;
+  border: 1.5px solid rgb(188, 223, 138);
+}
