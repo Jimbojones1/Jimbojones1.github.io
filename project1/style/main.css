@@ -37,10 +37,11 @@ h1 {
 
 .pictures {
   width: 78%;
-  height: 80%;
+  height: 50%;
   margin: 0 auto;
   animation-duration: 3000;
-  padding-top: 5%; }
+  padding-top: 5%;
+}
 
 .pictures img {
   width: 100%;
@@ -58,7 +59,8 @@ aside {
   width: 27%;
   height: 900px;
   margin-bottom: 10px;
-  font-family: KGSecondChancesSketch; }
+  font-family: KGSecondChancesSketch;
+ }
 
 .container {
   width: 95%;

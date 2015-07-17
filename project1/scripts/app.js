@@ -20,19 +20,11 @@ $(document).ready(function() {
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  fade: true,
+  arrows: false,
+  dots:  true
+
 });
-  $(window).load(function(){
-  $('img.bgfade').hide();
-  var dg_H = $(window).height();
-  var dg_W = $(window).width();
-  $('#wrap').css({'height':dg_H,'width':dg_W});
-  function anim() {
-      $("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
-      $("#wrap img").first().fadeIn(1500);
-      setTimeout(anim, 3000);
-  }
-  anim();})
-  $(window).resize(function(){window.location.href=window.location.href})
 
   // do my image switching logic here.
   initialize();
@@ -114,11 +106,18 @@ function initialize() {
   //the map object constructor takes two arguments
   var mapCanvas = document.getElementById('map-canvas');
   var mapOptions = {
-      center: new google.maps.LatLng(44.5403, -78.5463),
+      center: new google.maps.LatLng(41.931929, -87.698327),
       zoom: 8,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
   var map = new google.maps.Map(mapCanvas, mapOptions);
+  var i=new google.maps.Marker({
+       position:new google.maps.LatLng(41.931929, -87.698327),
+       map:map,
+      animation: google.maps.Animation.DROP// <------------------ needs to be a google.maps.Map object
+       })
   }
   //an event listener to wait for the map div to load
+
   google.maps.event.addDomListener(window, 'load', initialize);
+  
