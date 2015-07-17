@@ -7,7 +7,7 @@
   src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf");
   font-style: normal; }
 body {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0; }
 
 #wrapper {
@@ -53,7 +53,7 @@ aside {
   float: left;
   background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
   width: 27%;
-  height: 900px;
+  height: 100%;
   margin-bottom: 10px;
   font-family: KGSecondChancesSketch; }
 
@@ -64,7 +64,8 @@ aside {
   vertical-align: middle;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20%;
+  padding-bottom: 10%;}
 
 .container img {
   width: 100%;
@@ -77,8 +78,8 @@ nav {
 
 nav li {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+  padding-bottom: 10%;
   font-style: Algerian;
   font-size: 2em; }
 

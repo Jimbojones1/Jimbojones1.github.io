@@ -7,7 +7,7 @@
   src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf");
   font-style: normal; }
 body {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0; }
 
 #wrapper {
@@ -48,8 +48,8 @@ h1 {
   height: 100%;
   margin: 0 auto;
   background-color: #cde364;
-  border-top: 3px dotted #000;
-  border-bottom: 3px dotted #000;
+  border-top: 8px dotted #000;
+  border-bottom: 8px dotted #000;
   box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
   margin-bottom: 1px; }
 
@@ -69,7 +69,8 @@ aside {
   vertical-align: middle;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20%;
+  padding-bottom: 10%;}
 
 .container img {
   width: 100%;
@@ -81,8 +82,7 @@ nav {
 
 nav li {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10%;
   font-style: Algerian;
   font-size: 2em; }
 
@@ -122,8 +122,10 @@ a:hover {
 
   .container {
     width: 100%;
-    margin-bottom: -20px;
-    height: 150px; }
+    margin-bottom: -2%;
+    height: 150px;
+    padding-bottom: 5px;
+  }
 
   .container img {
     width: 40%;
@@ -147,7 +149,7 @@ a:hover {
     display: block;
     padding: 0;
     vertical-align: bottom;
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 5px; }
 
   nav li a {

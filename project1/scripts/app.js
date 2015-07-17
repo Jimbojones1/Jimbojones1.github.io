@@ -120,4 +120,3 @@ function initialize() {
   //an event listener to wait for the map div to load
 
   google.maps.event.addDomListener(window, 'load', initialize);
-  
