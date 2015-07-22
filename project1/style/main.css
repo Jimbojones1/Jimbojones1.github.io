@@ -55,7 +55,7 @@ h1 {
 
 aside {
   float: left;
-  background-image: url("Food_Pics/chalkboard-black.jpg");
+  background-image: url("../Food_Pics/chalkboard-black.jpg");
   width: 27%;
   height: 900px;
   margin-bottom: 10px;
