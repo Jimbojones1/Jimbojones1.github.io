@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Algerian';
-  src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/Algerian.ttf");
+  src: url("style/Algerian.ttf");
   font-style: normal; }
 @font-face {
   font-family: 'KGSecondChancesSketch';
-  src: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/KGSecondChancesSketch.ttf");
+  src: url("style/KGSecondChancesSketch.ttf");
   font-style: normal; }
 body {
   max-width: 1400px;
@@ -28,7 +28,7 @@ section {
   height: 650px;
   width: 75%;
   vertical-align: center;
-  background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
+  background-image: url("style/chalkboard-black.jpg");
   border-radius: 60px;
   margin: 0 auto;
   margin-top: 5%;
@@ -51,7 +51,7 @@ h2 {
 
 aside {
   float: left;
-  background-image: url("/Users/jehaff/death_star/Jimbojones1.github.io/project1/style/chalkboard-black.jpg");
+  background-image: url("style/chalkboard-black.jpg");
   width: 27%;
   height: 100%;
   margin-bottom: 10px;
