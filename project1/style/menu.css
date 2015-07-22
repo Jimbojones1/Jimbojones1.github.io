@@ -33,14 +33,14 @@ section {
   margin: 0 auto;
   margin-top: 5%;
   color: #f4f4f0;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
   border: 3px solid #906b33; }
 
 .fooditems {
   padding: 20px; }
 
 h2 {
-  font-family: Algerian;
+  font-family: 'Algerian';
   font-weight: bold;
   color: white;
   text-align: center;
