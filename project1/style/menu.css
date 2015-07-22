@@ -55,7 +55,7 @@ aside {
   width: 27%;
   height: 900px;
   margin-bottom: 10px;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
  }
 
 .container {
@@ -81,7 +81,7 @@ nav li {
   display: block;
 
   padding-bottom: 10%;
-  font-style: Algerian;
+  font-style: 'Algerian';
   font-size: 2em; }
 
 nav li a {
@@ -91,7 +91,7 @@ nav li a {
 
 .skies {
   font-size: 1em;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
   color: #f4f4f0; }
 
 a:hover {

@@ -37,7 +37,7 @@ section {
     width: 27%;
     height: 900px;
     margin-bottom: 10px;
-    font-family: KGSecondChancesSketch;
+    font-family: 'KGSecondChancesSketch';
    }
 
 .container {
@@ -63,7 +63,7 @@ nav li{
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-style: Algerian;
+  font-style: 'Algerian';
   font-size: 2em;
   }
 
@@ -75,7 +75,7 @@ nav li a{
 
 .skies {
   font-size: 1em;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
   color: rgb(244, 244, 240);
 }
 
@@ -102,7 +102,7 @@ a:hover {
 h1 {
   color:  rgb(244, 244, 240);
   width:  100%;
-  font-family: Algerian;
+  font-family: 'Algerian';
   text-align: center;
   text-decoration: underline overline;
   padding-top: 2%;
@@ -112,7 +112,7 @@ li input {
   width:  80%;
   padding: 2%;
   margin: 2%;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
   color: rgb(188, 223, 138);
   border-radius: 10px;
   border: 1.5px solid rgb(188, 223, 138);
@@ -125,7 +125,7 @@ input {
   width: 80%;
   font-size: 1rem;
   color: black;
-  font-family: Algerian;
+  font-family: 'Algerian';
   margin-left: 7%;
   border-radius: 10px;
   border: 1.5px solid rgb(188, 223, 138);

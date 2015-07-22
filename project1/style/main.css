@@ -25,7 +25,7 @@ section {
   height: 900px; }
 
 h1 {
-  font-family: Algerian;
+  font-family: 'Algerian';
   text-align: center;
   margin: 0;
   font-size: 8em;
@@ -59,7 +59,7 @@ aside {
   width: 27%;
   height: 900px;
   margin-bottom: 10px;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
  }
 
 .container {
@@ -93,7 +93,7 @@ nav li a {
 
 .skies {
   font-size: 1em;
-  font-family: KGSecondChancesSketch;
+  font-family: 'KGSecondChancesSketch';
   color: #f4f4f0; }
 
 a:hover {
