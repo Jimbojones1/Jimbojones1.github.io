@@ -51,11 +51,12 @@ h2 {
 
 aside {
   float: left;
-  background-image: url("Food_Pics/chalkboard-black.jpg");
+  background-image: url("../Food_Pics/chalkboard-black.jpg");
   width: 27%;
-  height: 100%;
+  height: 900px;
   margin-bottom: 10px;
-  font-family: KGSecondChancesSketch; }
+  font-family: KGSecondChancesSketch;
+ }
 
 .container {
   width: 95%;
