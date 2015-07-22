@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Algerian';
-  src: url("style/Algerian.ttf");
+  src: url("Food_Pics/Algerian.ttf");
   font-style: normal; }
 @font-face {
   font-family: 'KGSecondChancesSketch';
@@ -55,7 +55,7 @@ h1 {
 
 aside {
   float: left;
-  background-image: url("https://github.com/Jimbojones1/Jimbojones1.github.io/blob/master/project1/style/chalkboard-black.jpg?raw=true");
+  background-image: url("Food_Pics/chalkboard-black.jpg");
   width: 27%;
   height: 900px;
   margin-bottom: 10px;
