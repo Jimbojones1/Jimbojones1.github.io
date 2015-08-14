@@ -16,6 +16,6 @@
 * SQL 
 * Bootstrap
 * Postgres
-* 
+
 #####Find me on:
 * [LinkedIn]()
