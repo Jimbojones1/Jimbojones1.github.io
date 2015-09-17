@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Periodic Table"
+description: An interactive Periodic Table
+date:   2015-08-30 10:34:07
+categories: HTML CSS SASS Javascript jQuery Backbone Ruby on Rails RESTful API
+---
+
+![http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg](http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg)
+
+
+## Summary of Technology Used
+
+- HTML
+- Less
+- css
+- javascript
+- angular
+- node
+- express
+- mongo
+
+
+## Live Website

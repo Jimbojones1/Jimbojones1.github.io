@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "PaintWithMe"
+description: A paint app using angular, express, and node.
+date:   2015-09-15 10:34:07
+categories: project portfolio javascript html css angular node express
+
+---
+
+![http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg](http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg)
+
+
+## Summary of Technology Used
+
+- HTML
+- Less
+- css
+- javascript
+- angular
+- node
+- express
+- mongo
+
+
+## Live Website
+*add a link here if it legally ok to do
+
+* add a link to githhub as well

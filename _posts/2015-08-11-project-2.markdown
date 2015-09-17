@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Bedroom Party"
+description: A virtual bedroom
+date:   2015-08-11 10:34:07
+categories: HTML CSS Javascript API jquery Ruby Sinatra
+---
+
+![http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg](http://screenlicious.com/wp-content/uploads/2015/03/1019343-paint-splash-690x388.jpg)
+
+
+## Summary of Technology Used
+
+- HTML
+- Less
+- css
+- javascript
+- angular
+- node
+- express
+- mongo
+
+
+## Live Website

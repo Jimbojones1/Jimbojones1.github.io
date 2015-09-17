@@ -1,0 +1,12 @@
+# Site settings
+title: Jim Haff
+email: Jimmyhaff3@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is the work of an aspiring software engineer!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/Jimbojones1" # the base hostname & protocol for your site
+twitter_username: HaffJim
+github_username:  Jimbojones1
+
+# Build settings
+markdown: kramdown
